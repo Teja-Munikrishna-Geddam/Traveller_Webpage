@@ -360,18 +360,17 @@ input#tour[type="date"] {
 
 #footerContainer {
     position: relative;
-    height: 10rem;
 }
 
 .footer {
     border-top: 0.1rem solid #fafafa;
-    min-height: 15.2rem;
+    min-height: 12.2rem;
     background-color: rgb(42, 38, 38);
 }
 
 .footerRights {
     position: relative;
-    padding: 15px 0;
+    padding: 0.4rem 0;
     bottom: -100px;
     left: 50%;
     border-top: 1px #fafafa solid;
@@ -403,10 +402,10 @@ input#tour[type="date"] {
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.4);
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 318px) and (max-width: 768px) {
 
     body {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
 
     nav {
@@ -421,7 +420,7 @@ input#tour[type="date"] {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
         top: 20%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -433,7 +432,7 @@ input#tour[type="date"] {
 
     .tripcontainer {
         width: 80%;
-        height: 8vh;
+        height: 7vh;
     }
 
     .tripcontainer label {
@@ -446,8 +445,8 @@ input#tour[type="date"] {
     .tripcontainer span a {
         bottom: 0.5rem;
         right: 10%;
-        padding: 0.5rem;
-        font-size: small;
+        padding: 0.4rem;
+        font-size: 0.5rem;
     }
 
     main {
@@ -489,6 +488,10 @@ input#tour[type="date"] {
         height: 16rem;
         width: 14rem;
         font-size: 0.6rem;
+    }
+
+    .serviceHead {
+        font-size: 1.2rem;
     }
 
     .serviceImg {
@@ -560,7 +563,7 @@ input#tour[type="date"] {
     .footer {
         width: 123vw;
         font-size: small;
-        height: 20vh;
+        height: 15vh;
     }
 
     .footerRights {
@@ -576,11 +579,28 @@ input#tour[type="date"] {
     .socialMedia {
         flex-direction: row;
         flex-wrap: wrap;
-        row-gap: 1rem;
+        row-gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .socialMedia .socialBox a {
+        padding: 1rem;
+    }
+
+    .placesH1 {
+        font-size: 1.2rem;
+    }
+
+    .locations {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        width: 12rem;
+        height: 13rem;
     }
 
     .aboutSection {
         display: flex;
+        width: 85%;
         flex-direction: column;
         border-radius: 60px;
         font-size: large;
@@ -592,6 +612,12 @@ input#tour[type="date"] {
         justify-content: center;
         gap: 20px;
         height: auto;
+    }
+
+    .placesParent {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
     }
 }
 
