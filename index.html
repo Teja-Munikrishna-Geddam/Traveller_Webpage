@@ -13,11 +13,13 @@
         <nav>
             <img src="https://tse2.mm.bing.net/th/id/OIP.TON6NRF47H5OdAqOmPYkHQHaHa?pid=Api&P=0&h=220" alt="profile"
                 class="profileImg" style="width: 50px; height: 50px; border-radius: 50px;">
-            <ul><a href="#">Home</a>
+            <div class="menu-toggle">&#9776;</div>
+            <div class="nav-links">
+                <a href="#">Home</a>
                 <a href="#services">Services</a>
                 <a href="#places">Places</a>
                 <a href="#about">About</a>
-            </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -33,7 +35,7 @@
                     What are you waiting for Hurry Up and Select your favourite location to fly away!!
                 </h3>
                 <div class="tripcontainer">
-                    <label for="birthday">Select Your Tour Date :-</label>
+                    <label for="date">Select Your Tour Date :-</label>
                     <input type="date" id="tour" name="tour" max="31-12-25">
                     <span class="bookBtn"><a href="#">Book Your Trip</a></span>
                 </div>
@@ -65,8 +67,8 @@
                 </div>
             </div>
         </section>
-          
-        <a href="#" class="icon">👆</a>
+
+
 
         <section id="places">
             <h2 class="placesH1">PLACES</h2>
@@ -103,7 +105,7 @@
                 </div>
             </div>
         </section>
-         
+        <a href="#" class="icon">👆</a>
         <section id="about">
             <div class="aboutSection">
                 <h1>About</h1>
@@ -136,6 +138,7 @@
             </div>
         </section>
     </main>
+
     <footer id="footerContainer">
         <div class="footer">
             <div class="socialMedia">
@@ -163,8 +166,9 @@
             <div class="footerRights" style="text-align: center; font-size: 32px;color: #fff;">&copy; Teja Munikrishna
                 Geddam 2025</div>
         </div>
+
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>
